@@ -63,7 +63,10 @@
             fleste innen kniver. Det er bare å sende en forespørsel/ringe så vil
             vi anbefale. CoverBlubber er lokk som kan brukes på forskjellige
             matvarer eller lokk på skåler. Disse kan brukes direkte på matvarene
-            og skylles lett av med såpe og vann. De er helt super.
+            og skylles lett av med såpe og vann. De er helt super. Rosesakser,
+            grensakser 3 trinns små / 5 trinns store, topp sager, topp sakser 3
+            trinns med mer fra RP Demo som har eksistert i mer enn 30 år og
+            selges kun på messer og marknader.
           </v-responsive>
         </v-container>
 
@@ -81,7 +84,7 @@
                 v-for="[value, title] of stats"
                 :key="title"
                 cols="12"
-                md="3"
+                md="4"
               >
                 <div class="text-center">
                   <div
@@ -118,7 +121,7 @@
 
           <v-row>
             <v-col
-              v-for="({ src, text, title }, i) in articles"
+              v-for="({ src, text, title, price }, i) in articles"
               :key="i"
               cols="12"
               md="4"
@@ -135,12 +138,17 @@
                 v-text="title"
               ></h3>
 
+              <h4
+                class="font-weight-black mb-4"
+                v-text="'Kroner ' + price + ' + evt frakt'"
+              ></h4>
+
               <div class="title font-weight-light mb-5" v-text="text"></div>
 
               <v-btn
-                     class="ml-n4 font-weight-black"
-                     text
-                     @click="$vuetify.goTo('#contact')"
+                class="ml-n4 font-weight-black"
+                text
+                @click="$vuetify.goTo('#contact')"
               >
                 Bestill i dag
               </v-btn>
@@ -202,7 +210,10 @@
       <div
         class="title font-weight-light grey--text text--lighten-1 text-center"
       >
-        &copy; {{ new Date().getFullYear() }} — Laget med  💜 av <a href="https://twitter.com/robaxelsen" class="skaper-link">Robert Axelsen</a>
+        &copy; {{ new Date().getFullYear() }} — Laget med 💜 av
+        <a href="https://twitter.com/robaxelsen" class="skaper-link"
+          >Robert Axelsen</a
+        >
       </div>
     </v-footer>
   </v-app>
@@ -218,29 +229,34 @@ export default {
         {
           src: "/prod-1.png",
           title: "AnySharp Knivsliper 10 års garanti",
+          price: 350,
           text:
             "Suveren mekanisk knivsliper av ypperste kvalitet. Knivslipere er enkle å bruke, sørger for sikker håndtering og ikke minst freshe å se på! Med AnySharp kan enhver bli proff på kjøkkenet. For stålkniver og de fleste brødkniver med bølger/tagger."
         },
         {
-          src: "/prod-2.png",
+          src: "/prod-3.png",
           title: "Grensaks 5-trinns med teleskoparmar",
+          price: 600,
           text:
             "5-trinns grensaks som går og forlenge skaftene på! Klipper 58mm. Går bra å slipe, bytte blad. Ergonomiske handtak i gummi. Vekt 1,5kg Lengde opptil 100 cm. Abeider i fem trinn for å enklere kunne klippe tykke grener."
         },
         {
-          src: "/prod-3.png",
+          src: "/prod-2.png",
           title: "Cover Blubber (Matovertrekk)",
+          price: 299,
           text:
             "Matovertrekk gjør det lettere å oppbevare matrester. Bedre holdbarhet, mer miljøvennlig, og økonomisk. Prøv våre produkter i dag."
         }
       ],
       stats: [
-        ["2", "Ansatte"],
         ["10+", "Produkter"],
         ["60+", "Messer"],
-        ["3000", "Produkter solgt"]
+        ["12000+", "Produkter solgt"]
       ]
     };
+  },
+  mounted() {
+    document.title = 'Vedum Minishop AS';
   }
 };
 </script>
