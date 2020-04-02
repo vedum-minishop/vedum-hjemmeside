@@ -176,29 +176,51 @@
           </v-responsive>
 
           <v-theme-provider light>
-            <v-row>
-              <v-col cols="12">
-                <v-text-field flat label="Navn*" solo></v-text-field>
-              </v-col>
+            <v-form ref="form" v-model="valid" lazy-validation netlify>
+              <input type="hidden" name="form-name" value="contact" />
+              <v-row>
+                <v-col cols="12">
+                  <v-text-field
+                    v-model="navn"
+                    flat
+                    label="Navn*"
+                    solo
+                  ></v-text-field>
+                </v-col>
 
-              <v-col cols="12">
-                <v-text-field flat label="Epost*" solo></v-text-field>
-              </v-col>
+                <v-col cols="12">
+                  <v-text-field
+                    v-model="epost"
+                    flat
+                    label="Epost*"
+                    solo
+                  ></v-text-field>
+                </v-col>
 
-              <v-col cols="12">
-                <v-text-field flat label="Emne*" solo></v-text-field>
-              </v-col>
+                <v-col cols="12">
+                  <v-text-field
+                    v-model="emne"
+                    flat
+                    label="Emne*"
+                    solo
+                  ></v-text-field>
+                </v-col>
 
-              <v-col cols="12">
-                <v-textarea flat label="Melding*" solo></v-textarea>
-              </v-col>
+                <v-col cols="12">
+                  <v-textarea
+                    v-model="melding"
+                    label="Melding*"
+                    solo
+                  ></v-textarea>
+                </v-col>
 
-              <v-col class="mx-auto" cols="auto">
-                <v-btn color="accent" x-large>
-                  Send
-                </v-btn>
-              </v-col>
-            </v-row>
+                <v-col class="mx-auto" cols="auto">
+                  <v-btn color="accent" x-large>
+                    Send
+                  </v-btn>
+                </v-col>
+              </v-row>
+            </v-form>
           </v-theme-provider>
         </v-container>
 
@@ -225,6 +247,11 @@ export default {
 
   data() {
     return {
+      valid: true,
+      navn: "",
+      epost: "",
+      emne: "",
+      melding: "",
       articles: [
         {
           src: "/produkt-grensaks.png",
@@ -277,7 +304,7 @@ export default {
     };
   },
   mounted() {
-    document.title = 'Vedum Minishop AS';
+    document.title = "Vedum Minishop AS";
   }
 };
 </script>
