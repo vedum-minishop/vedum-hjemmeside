@@ -233,7 +233,7 @@
       >
         &copy; {{ new Date().getFullYear() }} — Laget med 💜 av
         <a href="https://twitter.com/robaxelsen" class="skaper-link"
-          >Robert Axelsen</a
+        >Robert Axelsen</a
         >
       </div>
     </v-footer>
@@ -241,87 +241,85 @@
 </template>
 
 <script>
-export default {
-  name: "App",
-
-  data() {
-    return {
-      valid: true,
-      navn: "",
-      epost: "",
-      emne: "",
-      melding: "",
-      articles: [
-        {
-          src: "/produkt-grensaks.png",
-          title: "Grensaks 3 trinn",
-          price: 259,
-          text:
-            "Kjempebra grensaks og bladet kan skiftes ut når det er utslitt. Artikkelnummer 3101-TW. Våre bestselgende grensakser! Kan kutte opp til 24 mm. Grensaksen er i metall. Har en utvesksling som fordeler kraften på opptil tre trinn ut i fra hvor tykk grenen er. Før å klippe tynne grener i ett klipp benyttes toppen på grensaksen. Bladet kan slipes eller byttes når den er slitt."
-        },
-        {
-          src: "/produkt-japanskslipt-handsag.png",
-          title: "Handsag Japanskslipt 16cm",
-          price: 259,
-          text:
-            "En liten men extremt effektiv! Enkel å ta i hop, smidig å ha med på jakt og fiske eller når man skal klatre i tre."
-        },
-        {
-          src: "/produkt-rosesaks.png",
-          title: "Rose saks",
-          price: 259,
-          text:
-            "Verdens beste idé! Slippe å stikke seg på taggrne for denne rosesaksen holder igjen grenen så du enkelt kan legge den direkte i bosset eller trillebåren. Bladet kan slipes. Klipper 10mm."
-        },
-        {
-          src: "/produkt-teleskopskaft.png",
-          title: "3, 6 meter telskopskaft",
-          price: 600,
-          text:
-            "Teleskopskaft i glasfiber fra 202 cm til 360 cm. Låser skaftet på lengden du vil ha ved å vri på øverste delen."
-        },
-        {
-          src: "/produkt-japanskslipt-sag.png",
-          title: "Japanskslipt sag",
-          price: 700,
-          text:
-            "Japanskslipt sag med kniver oppe og nede på sagbladet slik at den ikke detter av grenen når du sager. Knivene skjærer bark som evt henger igjen. Bladet er lager av karbonstål som holder i lang tid og er stiv. Sager tykke grener på kort tid."
-        },
-        {
-          src: "/produkt-toppsaks.png",
-          title: "Topp saks 3-trinn med sag",
-          price: 700,
-          text:
-            "Toppsaks som klipper i tre trinn for at du kan klippe tykkere grener. Det går å klippe uten flere trinn. Sagen monteres enkelt fast med en vingemutter. Bladet kan slipes."
-        }
-      ],
-      stats: [
-        ["10+", "Produkter"],
-        ["60+", "Messer"],
-        ["12000+", "Produkter solgt"]
-      ]
-    };
-  },
-  mounted() {
-    document.title = "Vedum Minishop AS";
-  }
-};
+  export default {
+    data() {
+      return {
+        valid: true,
+        navn: "",
+        epost: "",
+        emne: "",
+        melding: "",
+        articles: [
+          {
+            src: "/produkt-grensaks.png",
+            title: "Grensaks 3 trinn",
+            price: 259,
+            text:
+              "Kjempebra grensaks og bladet kan skiftes ut når det er utslitt. Artikkelnummer 3101-TW. Våre bestselgende grensakser! Kan kutte opp til 24 mm. Grensaksen er i metall. Har en utvesksling som fordeler kraften på opptil tre trinn ut i fra hvor tykk grenen er. Før å klippe tynne grener i ett klipp benyttes toppen på grensaksen. Bladet kan slipes eller byttes når den er slitt."
+          },
+          {
+            src: "/produkt-japanskslipt-handsag.png",
+            title: "Handsag Japanskslipt 16cm",
+            price: 259,
+            text:
+              "En liten men extremt effektiv! Enkel å ta i hop, smidig å ha med på jakt og fiske eller når man skal klatre i tre."
+          },
+          {
+            src: "/produkt-rosesaks.png",
+            title: "Rose saks",
+            price: 259,
+            text:
+              "Verdens beste idé! Slippe å stikke seg på taggrne for denne rosesaksen holder igjen grenen så du enkelt kan legge den direkte i bosset eller trillebåren. Bladet kan slipes. Klipper 10mm."
+          },
+          {
+            src: "/produkt-teleskopskaft.png",
+            title: "3, 6 meter telskopskaft",
+            price: 600,
+            text:
+              "Teleskopskaft i glasfiber fra 202 cm til 360 cm. Låser skaftet på lengden du vil ha ved å vri på øverste delen."
+          },
+          {
+            src: "/produkt-japanskslipt-sag.png",
+            title: "Japanskslipt sag",
+            price: 700,
+            text:
+              "Japanskslipt sag med kniver oppe og nede på sagbladet slik at den ikke detter av grenen når du sager. Knivene skjærer bark som evt henger igjen. Bladet er lager av karbonstål som holder i lang tid og er stiv. Sager tykke grener på kort tid."
+          },
+          {
+            src: "/produkt-toppsaks.png",
+            title: "Topp saks 3-trinn med sag",
+            price: 700,
+            text:
+              "Toppsaks som klipper i tre trinn for at du kan klippe tykkere grener. Det går å klippe uten flere trinn. Sagen monteres enkelt fast med en vingemutter. Bladet kan slipes."
+          }
+        ],
+        stats: [
+          ["10+", "Produkter"],
+          ["60+", "Messer"],
+          ["12000+", "Produkter solgt"]
+        ]
+      };
+    },
+    mounted() {
+      document.title = "Vedum Minishop AS";
+    }
+  };
 </script>
 
 <style>
-.push-down {
-  margin-top: 300px;
-}
+  .push-down {
+    margin-top: 300px;
+  }
 
-.stats {
-  background: rgba(0, 0, 0, 0.75);
-  border-radius: 5px;
-}
+  .stats {
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+  }
 
-.skaper-link,
-.skaper-link:active,
-.skaper-link:hover {
-  color: #bdbdbd !important;
-  text-decoration: none;
-}
+  .skaper-link,
+  .skaper-link:active,
+  .skaper-link:hover {
+    color: #bdbdbd !important;
+    text-decoration: none;
+  }
 </style>
