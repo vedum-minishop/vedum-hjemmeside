@@ -176,7 +176,7 @@
           </v-responsive>
 
           <v-theme-provider light>
-            <v-form ref="form" v-model="valid" lazy-validation netlify>
+            <v-form ref="form" v-model="valid" method="post" lazy-validation netlify>
               <input type="hidden" name="form-name" value="contact" />
               <v-row>
                 <v-col cols="12">
