@@ -215,7 +215,7 @@
                 </v-col>
 
                 <v-col class="mx-auto" cols="auto">
-                  <v-btn color="accent" x-large>
+                  <v-btn color="accent" x-large type="submit">
                     Send
                   </v-btn>
                 </v-col>
