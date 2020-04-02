@@ -176,10 +176,12 @@
           </v-responsive>
 
           <v-theme-provider light>
-            <v-form name="kontakt" ref="form" v-model="valid" action="" method="post" lazy-validation netlify>
+            <v-form name="kontakt" ref="form" v-model="valid" action="/takk" method="post" lazy-validation data-netlify="true" data-netlify-honepot="bot-field">
+              <input type="hidden" name="form-name" value="contactus" />
               <v-row>
                 <v-col cols="12">
                   <v-text-field
+                    name="navn"
                     v-model="navn"
                     flat
                     label="Navn*"
@@ -189,6 +191,7 @@
 
                 <v-col cols="12">
                   <v-text-field
+                    name="epost"
                     v-model="epost"
                     flat
                     label="Epost*"
@@ -198,6 +201,7 @@
 
                 <v-col cols="12">
                   <v-text-field
+                    name="emne"
                     v-model="emne"
                     flat
                     label="Emne*"
@@ -207,6 +211,7 @@
 
                 <v-col cols="12">
                   <v-textarea
+                    name="melding"
                     v-model="melding"
                     label="Melding*"
                     solo
