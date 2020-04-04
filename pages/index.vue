@@ -259,6 +259,27 @@
         melding: "",
         articles: [
           {
+            src: "/produkt-anysharp.png",
+            title: "AnySharp Knivsliper 10 års garanti",
+            price: 350,
+            text:
+              "Suveren mekanisk knivsliper av ypperste kvalitet. Knivslipere er enkle å bruke, sørger for sikker håndtering og ikke minst freshe å se på! Med AnySharp kan enhver bli proff på kjøkkenet. For stålkniver og de fleste brødkniver med bølger/tagger."
+          },
+          {
+            src: "/produkt-grensaks-5trinns.png",
+            title: "Grensaks 5-trinns med teleskoparmar",
+            price: 600,
+            text:
+              "5-trinns grensaks som går og forlenge skaftene på! Klipper 58mm. Går bra å slipe, bytte blad. Ergonomiske handtak i gummi. Vekt 1,5kg Lengde opptil 100 cm. Abeider i fem trinn for å enklere kunne klippe tykke grener."
+          },
+          {
+            src: "/produkt-matovertrekk.png",
+            title: "Cover Blubber (Matovertrekk)",
+            price: 299,
+            text:
+              "Matovertrekk gjør det lettere å oppbevare matrester. Bedre holdbarhet, mer miljøvennlig, og økonomisk. Prøv våre produkter i dag."
+          },
+          {
             src: "/produkt-grensaks.png",
             title: "Grensaks 3 trinn",
             price: 259,
