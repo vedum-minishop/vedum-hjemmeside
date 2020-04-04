@@ -177,6 +177,7 @@
 
           <v-theme-provider light>
             <v-form name="kontakt" ref="form" v-model="valid" action="/takk" method="post" lazy-validation data-netlify="true" data-netlify-honepot="bot-field">
+              <input type="hidden" name="form-name" value="contactus" form-name="kontakt" />
               <v-row>
                 <v-col cols="12">
                   <v-text-field
