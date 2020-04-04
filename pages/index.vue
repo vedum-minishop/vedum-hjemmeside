@@ -176,12 +176,13 @@
           </v-responsive>
 
           <v-theme-provider light>
-            <v-form name="kontaktskjema" ref="form" v-model="valid" action="/takk/" method="post" lazy-validation data-netlify="true">
+            <v-form name="kontaktskjema" ref="form" v-model="valid" action="/takk/" method="POST" lazy-validation data-netlify="true">
               <v-row>
                 <v-col cols="12">
                   <v-text-field
                     name="navn"
                     v-model="navn"
+                    type="text"
                     flat
                     label="Navn*"
                     solo
@@ -191,6 +192,7 @@
                 <v-col cols="12">
                   <v-text-field
                     name="epost"
+                    type="email"
                     v-model="epost"
                     flat
                     label="Epost*"
@@ -201,6 +203,7 @@
                 <v-col cols="12">
                   <v-text-field
                     name="emne"
+                    type="text"
                     v-model="emne"
                     flat
                     label="Emne*"
@@ -211,6 +214,7 @@
                 <v-col cols="12">
                   <v-textarea
                     name="melding"
+                    type="text"
                     v-model="melding"
                     label="Melding*"
                     solo
