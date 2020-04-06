@@ -177,6 +177,7 @@
 
           <v-theme-provider light>
             <v-form name="kontaktskjema" ref="form" v-model="valid" action="/takk/" method="POST" lazy-validation data-netlify="true">
+              <input type="hidden" name="form-name" value="kontaktskjema" />
               <v-row>
                 <v-col cols="12">
                   <v-text-field
