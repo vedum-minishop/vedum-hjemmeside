@@ -121,7 +121,7 @@
 
           <v-row>
             <v-col
-              v-for="({ src, text, title, price, reference, id }, i) in articles"
+              v-for="({ src, text, title, price, reference, id }, i) in produkter"
               :id="id"
               :key="i"
               cols="12"
@@ -151,7 +151,7 @@
               <v-btn
                 class="ml-n4 font-weight-black"
                 text
-                @click="$vuetify.goTo('#contact')"
+                @click="orderToday(reference)"
               >
                 Bestill i dag
               </v-btn>
@@ -262,7 +262,7 @@
         epost: "",
         emne: "",
         melding: "",
-        articles: [],
+        produkter: [],
         stats: [
           ["10+", "Produkter"],
           ["60+", "Messer"],
@@ -271,10 +271,17 @@
       };
     },
     created() {
-      this.articles = products;
+      this.produkter = products;
     },
     mounted() {
       document.title = "Vedum Minishop AS";
+    },
+    methods: {
+      orderToday(reference) {
+        const newOrder = `${this.melding}Jeg ønsker å bestille ${reference}. `;
+        this.melding = newOrder;
+        this.$vuetify.goTo('#contact');
+      }
     }
   };
 </script>
