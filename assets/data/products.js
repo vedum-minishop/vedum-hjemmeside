@@ -91,7 +91,7 @@ export const products = [
   },
   {
     id: 'produkt-11',
-    src: "/images/produkt-11o3stegs-sekator.png",
+    src: "/images/produkt-11-3stegs-sekator.png",
     title: "3-stegs sekatör 60-803",
     price: 259,
     reference: '60-803',
