@@ -103,7 +103,7 @@
         </v-parallax>
       </section>
 
-      <section id="blog">
+      <section id="products">
         <div class="py-12"></div>
 
         <v-container>
@@ -229,6 +229,9 @@
                   <v-btn color="accent" x-large type="submit">
                     Send
                   </v-btn>
+                  <v-btn color="secondary" x-large @click="backToProducts()">
+                    Tilbake til produkter
+                  </v-btn>
                 </v-col>
               </v-row>
             </v-form>
@@ -254,6 +257,7 @@
 
 <script>
   import { products } from '../assets/data/products'
+
   export default {
     data() {
       return {
@@ -278,9 +282,11 @@
     },
     methods: {
       orderToday(reference) {
-        const newOrder = `${this.melding}Jeg ønsker å bestille ${reference}. `;
-        this.melding = newOrder;
+        this.melding = `${this.melding}Jeg ønsker å bestille ${reference}. `;
         this.$vuetify.goTo('#contact');
+      },
+      backToProducts() {
+        this.$vuetify.goTo('#products');
       }
     }
   };
