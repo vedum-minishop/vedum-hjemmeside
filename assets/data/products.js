@@ -91,7 +91,7 @@ export const products = [
   },
   {
     id: 'produkt-11',
-    src: "/images/produkt-9-toppsaks.png",
+    src: "/images/produkt-11o3stegs-sekator.png",
     title: "3-stegs sekatör 60-803",
     price: 259,
     reference: '60-803',
@@ -127,7 +127,7 @@ export const products = [
   },
   {
     id: 'produkt-15',
-    src: "/images/produkt-9-toppsaks.png",
+    src: "/images/produkt-15-ekstrablad-sekator-810.png",
     title: "Extrablad sekatör 60-810",
     price: 80,
     reference: '60-800',
@@ -172,20 +172,20 @@ export const products = [
   },
   {
     id: 'produkt-20',
-    src: "/images/produkt-9-toppsaks.png",
-    title: "Vridbar Grässax",
-    price: 229,
-    reference: 'Grässax',
-    text:
-      "Vridbar i 360 grader! Väldigt bra stål som går att slipa. Ergonomiskt handtag."
-  },
-  {
-    id: 'produkt-20',
     src: "/images/produkt-20-vulkanus-pocket.png",
     title: "Vulkanus Pocket",
     price: 595,
     reference: 'Vulkanus Pocket',
     text:
-    "Super knivsliper til jakt og fiske. Grovsliper en vei og finsliper den andre. Vulkanus Pocket er en kvalitets knivsliper tross den enkle sørrelsen. Vulkanus Pocket er en kvalitets knivsliper tross den enkle sørrelsen. Den har stort sett samme egenskaper som de større modellene Vulkanus Classic og Vulkans Professional. Skillnaden er henholdsvis størrelsen og materialet som i pocketversonen er plast. Slipingen går til på samme måten som de større modellene, men her vender man på selve sliperen istedet for å holde vinkelen på kniven i forskjellige rettninger. På knivsliperen finnes tydlige og enkel grafik med instruksjoner."
+      "Super knivsliper til jakt og fiske. Grovsliper en vei og finsliper den andre. Vulkanus Pocket er en kvalitets knivsliper tross den enkle sørrelsen. Vulkanus Pocket er en kvalitets knivsliper tross den enkle sørrelsen. Den har stort sett samme egenskaper som de større modellene Vulkanus Classic og Vulkans Professional. Skillnaden er henholdsvis størrelsen og materialet som i pocketversonen er plast. Slipingen går til på samme måten som de større modellene, men her vender man på selve sliperen istedet for å holde vinkelen på kniven i forskjellige rettninger. På knivsliperen finnes tydlige og enkel grafik med instruksjoner."
+  },
+  {
+    id: 'produkt-21',
+    src: "/images/produkt-21-vulkanus-pocket.png",
+    title: "Vulkanus VG2 Classic Knivslip MSVP20G2",
+    price: 999,
+    reference: 'Vulkanus VG2 Classic',
+    text:
+    "Unngå piratkopier dette er orginalen. Fra sushiknivar til jakt- och lommekniver – VULKANUS® Mennesker har alltid søkt etter måte å fullende sina instrument og verktøy. Om det rører sig om sten, bronsje eller dagens høgste kvalitet av rustfri stål, har skarpe kniver alltid vore ett viktig verktøy. Idag tar VULKANUS® knivslipar denna jobben til det høgste nivået. • Slipe og bryne stålkniver på en og samme gång. • Gir hvasse blad, selv for tandede kniver. • Enkel a tå anvende, alle klarer dette. • Skader ikke knivens blad. • Vulkanus knivsliper tilpasser slipevinkelen etter kniven. • Kan vaskes i oppvaskmaskin. • Material: Plast"
   }
 ]
