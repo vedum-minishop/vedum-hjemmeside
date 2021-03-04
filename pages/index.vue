@@ -206,6 +206,17 @@
 
                 <v-col cols="12">
                   <v-text-field
+                    name="telefon"
+                    type="tel"
+                    v-model="telefon"
+                    flat
+                    label="TLF*"
+                    solo
+                  ></v-text-field>
+                </v-col>
+
+                <v-col cols="12">
+                  <v-text-field
                     name="emne"
                     type="text"
                     v-model="emne"
@@ -286,6 +297,7 @@
         valid: true,
         navn: "",
         epost: "",
+        telefon: "",
         emne: "",
         mottaker: "",
         adresse: "",
