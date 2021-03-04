@@ -171,15 +171,6 @@ export const products = [
       "En liten men extremt effektiv japanslipad handsåg! Går enkelt att vika ihop och smidig att ha med på jakt och fiske eller när man ska klättra i träd. Går att byta blad. Längd 20 cm klinga."
   },
   {
-    id: 'produkt-20',
-    src: "/images/produkt-20-vulkanus-pocket.png",
-    title: "Vulkanus Pocket",
-    price: 595,
-    reference: 'Vulkanus Pocket',
-    text:
-      "Super knivsliper til jakt og fiske. Grovsliper en vei og finsliper den andre. Vulkanus Pocket er en kvalitets knivsliper tross den enkle sørrelsen. Vulkanus Pocket er en kvalitets knivsliper tross den enkle sørrelsen. Den har stort sett samme egenskaper som de større modellene Vulkanus Classic og Vulkans Professional. Skillnaden er henholdsvis størrelsen og materialet som i pocketversonen er plast. Slipingen går til på samme måten som de større modellene, men her vender man på selve sliperen istedet for å holde vinkelen på kniven i forskjellige rettninger. På knivsliperen finnes tydlige og enkel grafik med instruksjoner."
-  },
-  {
     id: 'produkt-21',
     src: "/images/produkt-21-vulkanus-pocket.png",
     title: "Vulkanus VG2 Classic Knivslip MSVP20G2",
