@@ -216,6 +216,28 @@
                 </v-col>
 
                 <v-col cols="12">
+                  <v-text-field
+                    name="mottaker"
+                    type="text"
+                    v-model="mottaker"
+                    flat
+                    label="Mottaker*"
+                    solo
+                  ></v-text-field>
+                </v-col>
+
+                <v-col cols="12">
+                  <v-text-field
+                    name="adresse"
+                    type="text"
+                    v-model="adresse"
+                    flat
+                    label="Adresse*"
+                    solo
+                  ></v-text-field>
+                </v-col>
+
+                <v-col cols="12">
                   <v-textarea
                     name="melding"
                     type="text"
@@ -265,6 +287,8 @@
         navn: "",
         epost: "",
         emne: "",
+        mottaker: "",
+        adresse: "",
         melding: "",
         produkter: [],
         stats: [
