@@ -36,15 +36,6 @@ export const products = [
     "Kjempebra grensaks og bladet kan skiftes ut når det er utslitt. Våre bestselgende grensakser! Kan kutte opp til 24 mm. Grensaksen er i metall. Har en utvesksling som fordeler kraften på opptil tre trinn ut i fra hvor tykk grenen er. Før å klippe tynne grener i ett klipp benyttes toppen på grensaksen. Bladet kan slipes eller byttes når den er slitt."
   },
   {
-    id: 'produkt-5',
-    src: "/images/produkt-5-japanskslipt-handsag.png",
-    title: "Handsag Japanskslipt 16cm",
-    price: 299,
-    reference: 'Handsag 16cm',
-    text:
-    "En liten men extremt effektiv! Enkel å ta i hop, smidig å ha med på jakt og fiske eller når man skal klatre i tre."
-  },
-  {
     id: 'produkt-6',
     src: "/images/produkt-6-rosesaks.png",
     title: "Rose saks",
@@ -165,7 +156,7 @@ export const products = [
     id: 'produkt-19',
     src: "/images/produkt-19-japansk-handsag.png",
     title: "Japanslipad handsåg 20cm",
-    price: 249,
+    price: 299,
     reference: 'Handsag 20cm',
     text:
       "En liten men extremt effektiv japanslipad handsåg! Går enkelt att vika ihop och smidig att ha med på jakt och fiske eller när man ska klättra i träd. Går att byta blad. Längd 20 cm klinga."
