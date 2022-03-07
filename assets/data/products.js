@@ -12,7 +12,7 @@ export const products = [
     id: 'produkt-2',
     src: "/images/produkt-2-grensaks-5trinns.png",
     title: "Grensaks 5-trinns med teleskoparmar",
-    price: 600,
+    price: 649,
     reference: '3101-TW',
     text:
     "5-trinns grensaks som går og forlenge skaftene på! Klipper 58mm. Går bra å slipe, bytte blad. Ergonomiske handtak i gummi. Vekt 1,5kg Lengde opptil 100 cm. Abeider i fem trinn for å enklere kunne klippe tykke grener."
@@ -30,7 +30,7 @@ export const products = [
     id: 'produkt-4',
     src: "/images/produkt-4-grensaks.png",
     title: "3-stegssekatör/Grensaks 3 trinn 60-804",
-    price: 259,
+    price: 299,
     reference: '60-804',
     text:
     "Kjempebra grensaks og bladet kan skiftes ut når det er utslitt. Våre bestselgende grensakser! Kan kutte opp til 24 mm. Grensaksen er i metall. Har en utvesksling som fordeler kraften på opptil tre trinn ut i fra hvor tykk grenen er. Før å klippe tynne grener i ett klipp benyttes toppen på grensaksen. Bladet kan slipes eller byttes når den er slitt."
@@ -39,7 +39,7 @@ export const products = [
     id: 'produkt-5',
     src: "/images/produkt-5-japanskslipt-handsag.png",
     title: "Handsag Japanskslipt 16cm",
-    price: 259,
+    price: 299,
     reference: 'Handsag 16cm',
     text:
     "En liten men extremt effektiv! Enkel å ta i hop, smidig å ha med på jakt og fiske eller når man skal klatre i tre."
@@ -48,7 +48,7 @@ export const products = [
     id: 'produkt-6',
     src: "/images/produkt-6-rosesaks.png",
     title: "Rose saks",
-    price: 259,
+    price: 299,
     reference: 'Rosesaks',
     text:
     "Verdens beste idé! Slippe å stikke seg på taggrne for denne rosesaksen holder igjen grenen så du enkelt kan legge den direkte i bosset eller trillebåren. Bladet kan slipes. Klipper 10mm."
@@ -84,7 +84,7 @@ export const products = [
     id: 'produkt-10',
     src: "/images/produkt-10-3stegs-sekator.png",
     title: "3-stegssekatör 60-810",
-    price: 359,
+    price: 399,
     reference: '60-810',
     text:
       "Vår kraftigaste och starkaste sekatör! Passar en större hand, och kan klippa upp till 27mm. Sekatör helt i metall med ett ergonomiskt handtag i gummi. Har en utväxling så man fördelar grenen i upp till tre klipp beroende på hur tjock grenen är. För att klippa tunna grenar i ett klipp använd toppen på sekatören. Bladet går att slipa och även byta. Passar för högerhand."
@@ -93,7 +93,7 @@ export const products = [
     id: 'produkt-11',
     src: "/images/produkt-11-3stegs-sekator.png",
     title: "3-stegs sekatör 60-803",
-    price: 259,
+    price: 299,
     reference: '60-803',
     text:
       "Denna sekatör ha vi sålt i över 15 år! Passar en större hand, och kan klippa upp till 24mm. Sekatör helt i metall. Har en utväxling så man fördelar grenen i upp till tre klipp beroende på hur tjock grenen är. För att klippa tunna grenar i ett klipp använd toppen på sekatören."
@@ -102,7 +102,7 @@ export const products = [
     id: 'produkt-12',
     src: "/images/produkt-12-3stegs-sekator.png",
     title: "3-stegs sekatör 60-800",
-    price: 259,
+    price: 299,
     reference: '60-800',
     text:
       "Passar en liten hand, och kan klippa upp till 18mm. Lätt och smidig. Har en utväxling så man fördelar grenen i upp till tre klipp beroende på hur tjock grenen är. För att klippa tunna grenar i ett klipp använd toppen på sekatören. Bladet går att slipa."
@@ -147,7 +147,7 @@ export const products = [
     id: 'produkt-17',
     src: "/images/produkt-17-ekstrablad-uten-mothall.png",
     title: "Extrablad uten mothåll grensax 3101L",
-    price: 129,
+    price: 149,
     reference: 'Extrablad grensax 3101L',
     text:
       "Extrablad inkl mothåll som passar till 3101TW (teleskop grensaxen) och 3101L (svarta modellen). Bara lossa skruvarna för att byta både bladet och mothållet."
@@ -169,14 +169,5 @@ export const products = [
     reference: 'Handsag 20cm',
     text:
       "En liten men extremt effektiv japanslipad handsåg! Går enkelt att vika ihop och smidig att ha med på jakt och fiske eller när man ska klättra i träd. Går att byta blad. Längd 20 cm klinga."
-  },
-  {
-    id: 'produkt-21',
-    src: "/images/produkt-21-vulkanus-pocket.png",
-    title: "Vulkanus VG2 Classic Knivslip MSVP20G2",
-    price: 999,
-    reference: 'Vulkanus VG2 Classic',
-    text:
-    "Unngå piratkopier dette er orginalen. Fra sushiknivar til jakt- och lommekniver – VULKANUS® Mennesker har alltid søkt etter måte å fullende sina instrument og verktøy. Om det rører sig om sten, bronsje eller dagens høgste kvalitet av rustfri stål, har skarpe kniver alltid vore ett viktig verktøy. Idag tar VULKANUS® knivslipar denna jobben til det høgste nivået. • Slipe og bryne stålkniver på en og samme gång. • Gir hvasse blad, selv for tandede kniver. • Enkel a tå anvende, alle klarer dette. • Skader ikke knivens blad. • Vulkanus knivsliper tilpasser slipevinkelen etter kniven. • Kan vaskes i oppvaskmaskin. • Material: Plast"
   }
 ]
